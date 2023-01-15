@@ -1,0 +1,51 @@
+.container {
+  background-size: cover;
+  height:500px;
+  width: 100%;
+ 
+ 
+  }
+  .item {
+    padding: 30px;
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .item1{
+    margin-top: 10%;
+    font-style: italic;
+    text-align: center;
+    color: rgb(126, 126, 124);
+    margin-bottom: 20%;
+   
+  }
+  .item input {
+    padding: 20px;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid rgb(245, 245, 244);
+
+  }
+  .item button {
+    color: #fff;
+    background-color: rgb(78, 76, 76);
+    padding: 30px;
+    width: 92%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .item p {
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-style: italic;
+  }
+  
+  

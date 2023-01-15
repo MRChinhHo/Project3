@@ -1,0 +1,68 @@
+.infomation {
+    display: grid;
+    grid-template-columns: 60% 35%;
+    gap: 5%;
+  }
+  .infomation input {
+    width: 100%;
+    padding: 10px;
+  }
+  .infomation h3{
+    color: rgb(126, 126, 124);
+  }
+  h2{
+    font-style: italic; 
+    color: #464e51;
+  }
+  .infomation button {
+    background-color: #333;
+    color: white;
+    font-style: italic;
+    font-weight: 200;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .checkout {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px 50px 30px;
+    background-color: #f8f9fa;
+  }
+  .checkout span{
+    color: rgb(141, 137, 137);
+  }
+  .amount {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cart_total {
+  margin-top: 5%;
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 60%;
+    padding: 35px;
+  }
+  .totalAmount {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+  }
+  .totalAmount h3,
+  .totalAmount p {
+    margin: 0;
+    color: #464e51;
+  }
+  .item {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: black;
+    border-bottom: 1px solid rgb(192, 191, 191);
+    
+  }
+  .item1 {
+    color: rgb(141, 137, 137);
+  }
+  

@@ -1,0 +1,103 @@
+.detail {
+    display: grid;
+    grid-template-columns: 10% 40% 50%;
+    gap: 10px;
+  }
+  .dataimg {
+    display: flex;
+    flex-direction: column;
+  }
+  .dataimg img{
+   height: 88px;
+  }
+  .dataimg1 img{
+    height: 350px;
+   }
+  .detail div img {
+    width: 100%;
+  }
+  .description {
+    background-color: #333;
+    width: fit-content;
+    padding: 10px;
+    color: white;
+    font-style: italic;
+  }
+  .title_description {
+    width: 70%;
+  }
+  p {
+    font-style: italic;
+  }
+  .relate {
+    gap: 10px;
+  }
+  .relate img {
+    width: 100%;
+  }
+  .relate_img {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+  }
+  .title1{
+  
+    font-style: italic;
+    color: #464e51;
+  }
+  .title2{
+  
+    font-style: italic;
+    color: rgb(204, 201, 201);
+    font-size: 0.2in;
+  }
+  .title3{
+   
+    font-size: 0.15in;
+    color: rgb(204, 201, 201);
+  }
+  .title4{
+  
+    font-size: 0.15in;
+    color: rgb(204, 201, 201);
+  }
+  .title{
+    margin-left: 3%;
+  }
+  .title_description h3{
+    font-style: italic;
+    color: #464e51;
+  }
+  .title_description p{
+    color: rgb(204, 201, 201);
+    font-size: 0.15in;
+  }
+  .relate h3{
+    font-style: italic;
+    color: #464e51;
+  }
+  .relate_img h5{
+    font-style: italic;
+    color: #464e51;
+    text-align: center;
+    height: 15px;
+  }
+  .relate_img p{
+    font-style: italic;
+    color: rgb(204, 201, 201);
+    text-align: center;
+    height: 0px 10px;
+  }
+  .form{
+    display: flex;
+   
+  }
+  .form input{
+    align-items: center;
+   
+  }
+  .form button{
+   background-color: rgb(36, 35, 35);
+   color: white;
+   font-style: italic;
+   
+  }

@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+  }
+  .itemList {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    justify-items: center;
+
+    color: #464e51;
+  }
+  h3{
+    color: #464e51;
+    font-style: italic;
+  }
+  .shop h2{
+    font-style: italic;
+    color: #464e51;
+  }
+  .itemList img {
+    width: 50%;
+    gap: 2%;
+  }
+  .itemList svg {
+    width: 20px;
+  }
+  .list {
+    display: grid;
+    grid-template-columns: 68% 30%;
+    gap: 2%;
+  }
+  .itemList h2 {
+    font-size: 14px;
+    font-style: italic;
+  }
+  .itemList1{
+border: 10px solid  #f8f9fa;
+background-color: #f8f9fa;
+height: 40px;
+width: 100%;
+
+
+  }
+  .amount1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(192, 191, 191);
+  
+  }
+  .amount11 {
+    color: rgb(204, 201, 201);
+  }
+  .amount22 {
+    color: rgb(126, 126, 124);
+  }
+  .amount2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .itemList p,
+  .itemList h6 {
+    margin: 0;
+    font-style: italic;
+  }
+
+  .shop {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .arrow {
+    display: flex;
+    height: fit-content;
+  }
+  .link {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 20px;
+    width: 60%;
+  }
+  .linkShop {
+    display: flex;
+  }
+  .linkShop:hover {
+    border: 2px solid black;
+   padding: 10px;
+  }
+  .linkCheckout {
+    display: flex;
+  }
+  .linkCheckout:hover {
+    border: 2px solid black;
+   padding: 10px;
+
+  }
+  .link a {
+    text-decoration: none;
+    color: black;
+  }
+  .linkShop svg {
+    width: 20px;
+  }
+  .linkCheckout svg {
+    width: 20px;
+  }
+  .cart_total input {
+    width: 100%;
+    padding: 10px;
+  }
+  .cart_total button {
+    background-color: #333;
+    width: 100%;
+    color: white;
+    padding: 10px 20px 10px 20px;
+  }
+  .cart_total {
+    margin-top:3.5%;
+    background-color: #f8f9fa;
+    border: 40px solid  #f8f9fa;
+  }
+ 
+  

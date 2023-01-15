@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+  }
+  .titles {
+    display: flex;
+  }
+  .title {
+    margin: 5px;
+    margin-right: 5px;
+  }
+  .navbar a {
+    text-decoration: none;
+  }
+  .titles button {
+    margin: 0;
+    height: fit-content;
+    background-color: none !important ;
+    border: none;
+  }
+  .h1{
+    color: rgb(126, 126, 124);
+  }
+  

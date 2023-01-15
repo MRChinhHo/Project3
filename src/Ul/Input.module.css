@@ -1,0 +1,21 @@
+.input {
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .input label {
+ display: inline;
+ align-items: center;
+
+  }
+  
+  .input input {
+    width: 09rem;
+    align-items: center;
+    border: 2px solid #ccc;
+    font: inherit;
+
+   
+  }
+  

@@ -1,0 +1,45 @@
+.img1 {
+    display: flex;
+    gap: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+  }
+  .img1 .imgitem {
+    width: 93%;
+  
+  }
+  .img2 {
+    margin-left: 2%;
+    display: flex;
+    gap: 2%;
+  }
+  .img2 .imgitem {
+    width: 95%;
+  }
+  .imgitem:hover {
+    opacity: 0.6;
+  }
+  .text{
+    font-style: italic;
+    text-align: center;
+  }
+  .text1{
+    height: 0px ;
+    
+    color: rgb(204, 201, 201);
+    text-shadow: 0 0 20px rgba(245, 243, 243, 0.5);
+    line-height: 200%;
+
+  }
+  .text2{
+  color: rgb(126, 126, 124);
+  text-shadow: 0 0 20px rgba(252, 249, 249, 0.5);
+  height: 0px 10px;
+ 
+  }
+  .conten{
+    background-color: rgb(250, 248, 248);
+  }
+
+
+  
