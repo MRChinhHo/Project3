@@ -9,6 +9,7 @@ import RegisterPage from "./pages/RegisterPage";
 import ShopPage from "./pages/ShopPage";
 import Layout from "./layout/Layout";
 import CartProvider from "./store/CartProvider";
+import LiveChat from "./livechat/LiveChat";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/cart" element={<CartPage />} />
           <Route exact path="/checkout" element={<CheckoutPage />} />
         </Routes>
+        <LiveChat />
       </Layout>
     </CartProvider>
   );
